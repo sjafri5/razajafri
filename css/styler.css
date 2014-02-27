@@ -2,11 +2,21 @@ body {
 	font-family: 'Nunito', sans-serif;
 	color: #FAF3BC;
 	background: #420600 url('img/bg-texture.jpg') repeat;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 a {
 	color:#4FB69F;
 	text-decoration:none;
+}
+
+#drags {
+	height: 200px;
+	width: auto;
+	opacity: 0.1;
+	border-radius: 100px;
+	margin-top: 20px;
 }
 
 
@@ -54,12 +64,33 @@ ul.nav li a {
 
 #new-cupcakes img {
 	border: 8px solid #FAF3BC;
+	border-radius: 15px;
 	margin: 0 0 20px 0;
+	width: 350px;
+	height: auto;
+	overflow: hidden;
 
 }
 
+#circular {
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	-webkit-border-radius: 125px;
+	-moz-border-radius: 125px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	
+}
+
+
 #featured-cupcake img {
 	border: 8px solid #FAF3BC;
+	border-radius: 15px;
+	width: 550px;
+	height: auto;
+	overflow: hidden;
 }
 
 #copyright {
