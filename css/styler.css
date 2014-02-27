@@ -32,15 +32,15 @@ h2 {
 
 .btn {
 	color: #FAF3BC;
-	background: #4FB69F url('img/texture.png') no-repeat right top;
+	background: #4FB69F url('img/images.jpg') no-repeat right top;
 	padding: 15px 30px;
 	margin: 40px 0px;
-	border-radius: 25px;
+	border-radius: 15px;
 	text-transform: uppercase;
 }
 
 .btn:hover {
-	background-color: #4CC4A7;
+	background-color: #4C0000;
 }
 
 ul.nav {
