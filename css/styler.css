@@ -83,9 +83,12 @@ ul.nav li a {
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	
 }
+#rumi-quote p {
+	font-family: 'Allura', 'Cursive';
+	font-size: 25px;
+}
 
-
-#featured-cupcake img {
+#rumi-quote img {
 	border: 8px solid #FAF3BC;
 	border-radius: 15px;
 	width: 550px;
